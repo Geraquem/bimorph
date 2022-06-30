@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Bimorph</string>
+
+    <!-- COMENTARIOS -->
+    <string name="comments">%1$s COMENTARIOS</string>
+
 </resources>
