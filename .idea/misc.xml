@@ -15,7 +15,12 @@
         <entry key="..\:/Users/Gershon/Desktop/projects/Bimorph/app/src/main/res/drawable/shape_comments.xml" value="0.3828125" />
         <entry key="..\:/Users/Gershon/Desktop/projects/Bimorph/app/src/main/res/drawable/shape_linear_dulism_dashboard.xml" value="0.3828125" />
         <entry key="..\:/Users/Gershon/Desktop/projects/Bimorph/app/src/main/res/layout/activity_main.xml" value="0.2898148148148148" />
+        <entry key="..\:/Users/Gershon/Desktop/projects/Bimorph/app/src/main/res/layout/fragment_category.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Gershon/Desktop/projects/Bimorph/app/src/main/res/layout/fragment_dualism_dashboard.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gershon/Desktop/projects/Bimorph/app/src/main/res/layout/item_cat.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gershon/Desktop/projects/Bimorph/app/src/main/res/layout/item_category.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gershon/Desktop/projects/Bimorph/app/src/main/res/layout/item_category_element.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gershon/Desktop/projects/Bimorph/app/src/main/res/layout/item_category_row.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
