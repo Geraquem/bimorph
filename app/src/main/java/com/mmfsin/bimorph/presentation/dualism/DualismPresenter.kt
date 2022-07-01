@@ -14,7 +14,7 @@ class DualismPresenter(private val view: DualismView) : IFBDualism, CoroutineSco
 
     private val repo by lazy { FBDualismRepo(this) }
 
-    override fun getCategoryNames(names: List<DTOCategory>) {}
+    override fun getCategories(categories: List<DTOCategory>) {}
 
     override fun somethingWentWrong() {
         launch {

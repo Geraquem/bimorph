@@ -12,13 +12,13 @@ class FBDualismRepo(private val listener: IFBDualism) {
     fun getCategoryNames() {
         categoryRoot.get()
             .addOnSuccessListener {
-                val names = mutableListOf<DTOCategory>()
+                val categories = mutableListOf<DTOCategory>()
                 for (child in it.children) {
                     child.getValue(DTOCategory::class.java)?.let { category ->
-                        names.add(category)
+                        categories.add(category)
                     }
                 }
-                listener.getCategoryNames(names)
+                listener.getCategories(categories)
 
             }.addOnFailureListener {
                 listener.somethingWentWrong()
@@ -26,7 +26,7 @@ class FBDualismRepo(private val listener: IFBDualism) {
     }
 
     interface IFBDualism {
-        fun getCategoryNames(names: List<DTOCategory>)
+        fun getCategories(categories: List<DTOCategory>)
         fun somethingWentWrong()
     }
 }

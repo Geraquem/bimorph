@@ -20,8 +20,8 @@ class CategoryPresenter(private val view: CategoryView) : IFBDualism, CoroutineS
         }
     }
 
-    override fun getCategoryNames(names: List<DTOCategory>) {
-        launch { view.setCategoryNames(names) }
+    override fun getCategories(categories: List<DTOCategory>) {
+        launch { view.setCategories(categories) }
     }
 
     override fun somethingWentWrong() {

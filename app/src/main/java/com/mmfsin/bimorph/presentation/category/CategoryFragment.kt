@@ -30,8 +30,26 @@ class CategoryFragment : Fragment(), CategoryView {
         presenter.getCategoryNames()
     }
 
-    override fun setCategoryNames(names: List<DTOCategory>) {
-        names
+    override fun setCategories(categories: List<DTOCategory>) {
+        with(binding){
+
+            row1.itemLeft.itemDescription.text = categories[0].description
+        }
+        handleOnClick()
+        //loading gone
+    }
+
+    private fun handleOnClick(){
+        with(binding){
+            row1.itemLeft.item.setOnClickListener{}
+            row1.itemLeft.item.setOnClickListener{}
+            row1.itemLeft.item.setOnClickListener{}
+            row1.itemLeft.item.setOnClickListener{}
+            row1.itemLeft.item.setOnClickListener{}
+            row1.itemLeft.item.setOnClickListener{}
+            row1.itemLeft.item.setOnClickListener{}
+            row1.itemLeft.item.setOnClickListener{}
+        }
     }
 
     override fun somethingWentWrong() {}

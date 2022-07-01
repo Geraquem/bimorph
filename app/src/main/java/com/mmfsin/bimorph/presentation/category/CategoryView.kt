@@ -5,6 +5,6 @@ import com.mmfsin.bimorph.domain.repository.FBDualismRepo
 import com.mmfsin.bimorph.domain.repository.FBDualismRepo.IFBDualism
 
 interface CategoryView{
-    fun setCategoryNames(names: List<DTOCategory>)
+    fun setCategories(categories: List<DTOCategory>)
     fun somethingWentWrong()
 }
